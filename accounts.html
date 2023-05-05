@@ -31,36 +31,37 @@
             <img src="images/shopping_cart.png" width="30px" height="30px">
             <img src="images/menu.jpg" class="menu-icon" onclick="Menutoggle()">
         </div>
+<!------------account page---------->
+<form action="login.php" method="post">
+  <div class="imgcontainer">
+    <img src="images/Avatar.webp" alt="Avatar" width="150px">
+  </div>
+
+  <div class="form-container">
+    <label for="email"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="password" required>
+
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+    <p class="form-text">
+      <a class="form-text" href="sign-in.html" id="Create Account"> Dont have an account? Create Account</a>
+    </p>
+  </div>
+
+  
+</form>
 
 </div>
-<!------------account page---------->
-<form action="action_page.php" method="post">
-    <div class="imgcontainer">
-      <img src="images/Avatar.webp" alt="Avatar" width="200px">
-    </div>
-  
-    <div class="form-container">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
-  
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-  
-      <button type="submit">Login</button>
-      <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
-      <div class="container" style="background-color:#f1f1f1">
-        <button type="button" class="cancelbtn">Cancel</button>
-        <span class="psw">Forgot <a href="#">password?</a></span>
-      </div>
-      <p class="form-text">
-        <a class="form-text" href="sign-in.html" id="Create Account"> Dont have an account? Create Account</a>
-      </p>
-    </div>
-  
-    
-  </form>
+
 
 
 
